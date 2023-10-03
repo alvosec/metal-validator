@@ -35,7 +35,7 @@ else
     STATUS_EMOJI="❌"
 fi
 
-if [[ "$CONNECTED" == "false" || "$UPTIME" -lt 110 ]]; then
+if [[ "$CONNECTED" == "false" || "$UPTIME" -lt 100 ]]; then
     MESSAGE="<b>Validator Alert!</b>
 Validator Name: $NAME
 Connected: $STATUS_EMOJI $CONNECTED
