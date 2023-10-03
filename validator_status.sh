@@ -1,5 +1,7 @@
 #!/bin/bash
 # Create cronjob @hourly to run and check the status of your metal validator
+# Check an example of validator status via this API https://explorer.metalblockchain.org/api/v1/validators/NodeID-MRFsc5DD5gegwp37E9tk5YWvKMqa1dTaz
+# This metal node belongs to Alvosec
 
 command_exists() {
     command -v "$1" >/dev/null 2>&1
